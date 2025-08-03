@@ -7,6 +7,15 @@ https://txtrainingstore.blob.core.windows.net/db-backup-aw2019/AdventureWorksERD
 
 To transform transactional data into a business-friendly star schema format and generate reports for key business questions such as sales by region, credit card types, online purchases, and purchase motivations.
 
+## 👤 My Role
+
+As a member of a 5-person team, my key contributions were:
+
+- Co-designed the dimensional model (star schema) used in the data warehouse
+- Created tables and wrote SQL scripts for the DW layer, including datatype conversions and constraints
+- Implemented **Slowly Changing Dimension (SCD) logic** to maintain historical data (ValidFrom / ValidTo)
+- Assisted in building **Power BI dashboards**
+
 ## 🛠️ Technologies Used
 
 - Microsoft SQL Server
@@ -20,11 +29,10 @@ To transform transactional data into a business-friendly star schema format and 
 
 - **docs/**: Project documentation
 - **diagrams/**: ERD, star schema, and ETL flow visuals
-- **sql/**: Example SQL views and queries used for fact/dimension loading
-- **pseudocode/**: Simplified description of ETL processes
-- **reports/**: Report screenshots and descriptions
+- **scripts/**: Example SQL views and queries used for fact/dimension loading
+- **src/**: The ETL processes in .dtsx files
 
-## 📊 Example Reports
+## 📊 Example Reports - can be seen in the documentation only
 
 - Sales per region
 - Promotion-based sales analysis
