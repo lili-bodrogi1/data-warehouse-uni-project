@@ -27,7 +27,7 @@ As a member of a 5-person team, my key contributions were:
 
 ## 📂 Project Structure
 
-- **docs/**: Project documentation
+- **docs/**: Project documentation and a seperate file about my responibilities
 - **diagrams/**: ERD, star schema, and ETL flow visuals
 - **scripts/**: Example SQL views and queries used for fact/dimension loading
 - **src/**: The ETL processes in .dtsx files
